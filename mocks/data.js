@@ -32,7 +32,16 @@
           "discount_price" : null,
           "price" : 0,
           "sponsors" : [],
-          "mentors" : [],
+          "mentors" : [
+            {
+              "user_id": ObjectId("5adf48b21f1cb99d1ecbadea"),
+              "username": "alex",
+              "first_name": "Alex",
+              "bio": null,
+              "last_name": "Lobera",
+              "profile_pic_url": "https://storage.googleapis.com/upmentoring_user_profile_image/400x400_5a6740a52755c83e82f7d829.jpeg"
+            }
+          ],
           "rating" : null,
           "attendees": [
             {
