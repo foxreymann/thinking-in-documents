@@ -14,9 +14,21 @@ Make sure you have [MongoDB installed](https://docs.mongodb.com/manual/installat
 
 #### Tasks
 
-1. Insert your documents in a Mongo server.
-2. Query the reviews of a given training
+1. Insert your documents in a Mongo server. You can use:
+```
+db.trainings.insertOne({
+    "type" : "workshop",
+    ...
+})
+```
+2. Query the reviews of a given training. You can use:
+```
+db.trainings.find()
+```
 3. Update the rating of a training based on the reviews' rating.
+```
+db.courses.update({ "_id" : ObjectId("5a0b8754884b53e60d39f3e1”)}, {...})
+```
 
 ## Links
 
