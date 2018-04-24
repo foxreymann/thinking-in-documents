@@ -14,6 +14,7 @@
     },
     "slug" : "new-reactjs-context-api-hands-on",
     "rating" : null,
+    "related_trainings": [],
     "instances": [
       {
           "_id" : ObjectId("5adf48be1f1cb99d1ecbadec"),
