@@ -27,7 +27,7 @@ db.trainings.find()
 ```
 3. Update the rating of a training based on the reviews' rating.
 ```
-db.courses.update({ "_id" : ObjectId("5a0b8754884b53e60d39f3e1”)}, {...})
+db.trainings.update({ "_id" : ObjectId("5a0b8754884b53e60d39f3e1”)}, {...})
 ```
 
 ## Links
